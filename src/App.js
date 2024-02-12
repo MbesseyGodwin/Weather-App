@@ -3,7 +3,7 @@ import './App.css';
 import './tailwind.css';
 
 
-const API_KEY = 'd3cb9e67d0615d06d30c5c8699d9af92'; // Replace 'YOUR_API_KEY' with your actual API key
+const API_KEY = process.env.REACT_APP_API_KEY;
 const BASE_URL = 'https://api.openweathermap.org/data/2.5';
 
 function App() {
